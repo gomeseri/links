@@ -1,0 +1,35 @@
+.FooterComteiner {
+  width: 588px;
+  height: 160px;
+}
+
+.li {
+  display: inline;
+}
+
+.links {
+  margin-left: 100px;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.icones {
+  font-size: 24px;
+  color: white;
+  width: 24px;
+}
+
+#Texto {
+  padding: 24px;
+  color: white;
+  text-align: center;
+}
+
+@media (max-width: 450px) {
+  .FooterComteiner {
+    width: 360px;
+  }
+  .links {
+    margin-left: 50px;
+  }
+}

@@ -1,0 +1,42 @@
+.mainContainer {
+  width: 588px;
+  padding: 24px;
+  display: flex;
+}
+
+#mainUl {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  list-style-type: none;
+}
+
+.mainlinks {
+  text-decoration: none;
+  color: white;
+
+  width: 540px;
+  height: 56px;
+  font-size: 22px;
+
+  border-radius: 8px;
+  border: 1px solid #ffffff;
+  background-color: #ffffff10;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainlinks:hover {
+  background-color: transparent;
+}
+
+@media (max-width: 450px) {
+  .mainContainer {
+    width: 360px;
+  }
+  .mainlinks {
+    width: 310px;
+  }
+}

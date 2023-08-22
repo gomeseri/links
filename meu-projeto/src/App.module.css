@@ -1,0 +1,9 @@
+.comtainer {
+  width: 588px;
+  margin: 57px auto 0;
+}
+@media (max-width: 450px) {
+  .comtainer {
+    width: 360px;
+  }
+}

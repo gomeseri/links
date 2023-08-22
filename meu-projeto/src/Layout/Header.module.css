@@ -1,0 +1,23 @@
+.headerContainer {
+  width: 588px;
+  padding: 24px;
+  text-align: center;
+}
+
+#fotoMotorista {
+  width: 120px;
+  border-radius: 100%;
+  border: 2px solid rgb(77, 77, 77);
+}
+
+.headerNome {
+  color: white;
+  font-size: 20px;
+  margin-top: 8px;
+}
+
+@media (max-width: 450px) {
+  .headerContainer {
+    width: 360px;
+  }
+}

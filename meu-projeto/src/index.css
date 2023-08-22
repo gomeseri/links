@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(./Layout/assets/bg-desktop.jpg) no-repeat top center/cover;
+}
+
+@media (max-width: 450px) {
+  body {
+    background-image: url(./Layout/assets/bg-mobile.jpg);
+    background-size: cover;
+  }
+}
